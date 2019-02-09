@@ -1,0 +1,46 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	background-image: url("https://images2.alphacoders.com/598/thumb-1920-598673.jpg");
+}
+
+.title-head{
+	text-align: center;
+	float: top;
+	color: #ffffff;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.button{
+	border: none;
+	border-radius: 3px;
+	color: #1d6bc2;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.display{
+	width: 100%;
+	border: none;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+input{
+	width: 30%;
+	padding: 5px, 5px;
+	margin: center;
+	border: 1px solid #1d6bc2;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+input[type=text]:focus {
+	background-color: #b5d8ff;
+	color: #282b5e;
+	font-family: 'Shadows Into Light Two', cursive;
+}
