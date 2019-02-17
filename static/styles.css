@@ -12,6 +12,7 @@ body{
 }
 
 .button{
+	width: 200px;
 	border: none;
 	border-radius: 3px;
 	color: #1d6bc2;
@@ -23,6 +24,20 @@ body{
 	font-family: 'Shadows Into Light Two', cursive;
 }
 
+a:link, a:viborder: none{
+	background-color: white;
+	color: #1d6bc2;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+a:hover, a:active{
+	background-color: #b5d8ff;
+}
 .display{
 	width: 100%;
 	border: none;
@@ -32,7 +47,7 @@ body{
 }
 
 input{
-	width: 30%;
+	width: 75%;
 	padding: 5px, 5px;
 	margin: center;
 	border: 1px solid #1d6bc2;

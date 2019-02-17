@@ -15,21 +15,12 @@
 
 <body>
 	<div class="title-head">
-		<h1> Tweet Sentiment Analyzer</h1>
+		<h1> Welcome {{username}}</h1>
 	</div>
 
-	<form method="POST">
-		<input type="text" name="text">
-		<button type="submit" class="button">
-			Submit
-		</button>
-	</form>
-
-	<form method="GET" action='/'>
-		<button type="submit" class="button">
-			Go to home page
-		</button>
-	</form>
+	<div>
+		{{tweets}}
+	</div>
 	
 </body>
 </html>

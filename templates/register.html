@@ -15,19 +15,20 @@
 
 <body>
 	<div class="title-head">
-		<h1> Tweet Sentiment Analyzer</h1>
+		<h1> Register</h1>
 	</div>
 
-	<form method="POST">
-		<input type="text" name="text">
+	<p> Already have an account? Go to log in </p>
+	<a href="/loggedin" target="_self"> Go to log in </a>
+
+	<p> Register now! </p>
+	<form method="POST" action='/register'>
+		<input type="text" name="full_name" placeholder="Full Name">
+		<input type="text" name="username" placeholder="Username">
+		<input type="text" name="password" placeholder="Password">
 		<button type="submit" class="button">
 			Submit
-		</button>
-	</form>
-
-	<form method="GET" action='/'>
-		<button type="submit" class="button">
-			Go to home page
+			<input onclick="" type="submit" value="Submit request" />
 		</button>
 	</form>
 	
